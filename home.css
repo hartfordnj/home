@@ -1,0 +1,43 @@
+body {
+  background-color: #f3f6f4;
+  font-family: QuickSand, sans-serif;
+  color: #444444;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 2%;
+  grid-auto-rows: minmax(auto);
+}
+
+.one {
+  grid-column: 1 / 11;
+  grid-row: 1;
+  background-color: blueviolet;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.two {
+  grid-column: 1 / 11;
+  grid-row: 2;
+  background-color: yellowgreen;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.three {
+  grid-column: 1 / 11;
+  grid-row: 3;
+  background-color: chocolate;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  margin: 1%;
+  font-size: small;
+}
