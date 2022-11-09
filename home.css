@@ -105,11 +105,37 @@ body {
   align-items: center;
   margin: 1%;
   font-size: small;
-  background-color: #444444;
+  background-color: #3f1291;
 }
 
 .seven {
   grid-column: 1 / 6;
+  grid-row: 5;
+  display:grid
+  text-align: left;
+  align-items: center;
+  margin: 2%;
+  font-size: small;
+  height: 200px;
+}
+
+.credentials {
+text-align: center;
+font-weight: bold;
+border: grey;
+border-style: solid;
+border-width: 0.5px;
+border-radius: 2px;
+}
+
+.credentials-body {
+  margin-top: -10px;
+  padding-left: 2%;
+  font-size: smaller;
+}
+
+.eight {
+  grid-column: 6 / 11;
   grid-row: 5;
   display:grid
   text-align: left;
@@ -125,7 +151,7 @@ font-weight: bold;
 border: grey;
 border-style: solid;
 border-width: 0.5px;
-border-radius: 2%;
+border-radius: 2px;
 }
 
 .techskills-body {
@@ -137,14 +163,4 @@ border-radius: 2%;
 li span {
   position: relative;
   left: -10px;
-}
-.eight {
-  grid-column: 6 / 11;
-  grid-row: 5;
-  display: flex;
-  text-align: left;
-  align-items: center;
-  margin: 1%;
-  font-size: small;
-  background-color: #55acee;
 }
