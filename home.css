@@ -4,6 +4,12 @@ body {
   color: #444444;
 }
 
+.img-credentials {
+  object-fit: cover;
+  width: 100%;
+}
+
+
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -27,7 +33,7 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  gap: 2%;
+  gap: 0.5%;
   grid-auto-rows: minmax(auto);
 }
 
@@ -105,7 +111,7 @@ body {
   align-items: center;
   margin: 1%;
   font-size: small;
-  background-color: #3f1291;
+
 }
 
 .seven {
@@ -128,8 +134,10 @@ border-width: 0.5px;
 border-radius: 2px;
 }
 
+
+
 .credentials-body {
-  margin-top: -10px;
+  margin-top: 10px;
   padding-left: 2%;
   font-size: smaller;
 }
@@ -163,4 +171,110 @@ border-radius: 2px;
 li span {
   position: relative;
   left: -10px;
+}
+
+.credentials2 {
+  grid-row: 6;
+  grid-column: 1 / 11;
+  text-align: center;
+  font-weight: bold;
+  border: grey;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 2px;
+}
+
+.nine {
+  background-color: #007bb5;
+  /* grid-column: 1 / 6; */
+  grid-row: 7;
+  display:grid
+  text-align: left;
+  align-items: center;
+  /* margin: 2%; */
+  font-size: small;
+  height: 50px;
+  width: 50px;
+  /* height: 200px; */
+}
+
+.ten {
+  margin-top: 1%;
+margin-left: 1%;
+  height: 50px;
+  grid-column: 2/ 11;
+  grid-row: 7;
+  display:grid
+  text-align: left;
+  align-items: center;
+  /* margin: 2%; */
+  font-size: small;
+  /* height: 200px; */
+}
+
+.eleven {
+  background-color: #007bb5;
+  /* grid-column: 1 / 6; */
+  grid-row: 8;
+  display:grid
+  text-align: left;
+  align-items: center;
+  /* margin: 2%; */
+  font-size: small;
+  height: 50px;
+  width: 50px;
+  /* height: 200px; */
+}
+
+.twelve {
+  margin-top: 1%;
+margin-left: 1%;
+  height: 50px;
+  grid-column: 2/ 11;
+  grid-row: 8;
+  display:grid
+  text-align: left;
+  align-items: center;
+  /* margin: 2%; */
+  font-size: small;
+  /* height: 200px; */
+}
+
+.thirteen {
+  background-color: #007bb5;
+  /* grid-column: 1 / 6; */
+  grid-row: 9;
+  display:grid
+  text-align: left;
+  align-items: center;
+  /* margin: 2%; */
+  font-size: small;
+  height: 50px;
+  width: 50px;
+  /* height: 200px; */
+}
+
+.fourteen {
+  margin-top: 1%;
+margin-left: 1%;
+  height: 50px;
+  grid-column: 2/ 11;
+  grid-row: 9;
+  display:grid
+  text-align: left;
+  align-items: center;
+  /* margin: 2%; */
+  font-size: small;
+  /* height: 200px; */
+}
+
+.skills {
+  grid-row: 10;
+  grid-column: 1 / 11;
+  text-align: center;
+  font-weight: bold;
+  border: grey;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 2px;
 }
