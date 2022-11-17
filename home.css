@@ -3,9 +3,21 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Quicksand', sans-serif;
   color: #444444;
+  margin: 3%;
 }
 
+.img-link:hover {
+  opacity: 0.5;
+  transform: scale(0.85);
+ 
+}
+
+
 /* links */
+a {
+  color: #444444;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -24,26 +36,19 @@ a:active {
 /* links */
 
 
+.img-link {
 
-
-.img-credentials {
   object-fit: cover;
-  width: 100%;
+  width: 100%; 
+}
+
+.img-static {
+
+  object-fit: cover;
+  width: 100%; 
 }
 
 
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
 
 .header {
   font-size: x-large;
@@ -52,12 +57,16 @@ a:active {
   margin-bottom: -2%;
 }
 
-.wrapper {
+
+
+.wrapper-cred {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   gap: 0.5%;
   grid-auto-rows: minmax(auto);
+
 }
+
 
 
 
@@ -68,82 +77,80 @@ a:active {
   display: flex;
   text-align: center;
   align-items: center;
-  margin: 1%;
+  margin: 2%;
 }
 
 .two {
   grid-column: 1 / 11;
   grid-row: 2;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   display: flex;
   text-align: center;
   align-items: center;
-  margin: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.socials {
+/* .socials {
   grid-row: 3;
   display: flex;
   
+} */
+
+.wrapper-soc {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 0.5%;
+  grid-auto-rows: minmax(auto);
+}
+
+.socials {
+  margin-left: 8%;
+  grid-row: 3;
+  height: 35px;
+  width: 35px;
+  display: flex;
+ justify-content: center;
+  margin-right: 5%;
+}
+
+.filename {
+  grid-column: 6 / 11;
+  vertical-align: middle;
+  margin-top: 10px;
 }
 
 .socials1 {
-  /* grid-column: 1 / 3; */
-  /* grid-row: 3; */
-  height: 25px;
-  width: 25px;
-  background-color: chocolate;
-  display: flex;
-  text-align: left;
-  align-items: center;
-  margin: 1%;
-  font-size: small;
+
 }
-
-
 
 .socials2 {
-  /* grid-column: 3 / 5; */
-  /* grid-row: 3; */
-  height: 25px;
-  width: 25px;
-  background-color: #007bb5;
-  display: flex;
-  text-align: left;
-  align-items: center;
-  margin: 1%;
-  font-size: small;
-}
 
+}
 
 .socials3 {
-  /* grid-column: 5 / 7; */
-  /* grid-row: 3; */
-  height: 25px;
-  width: 25px;
-  background-color: #007bb5;
-  display: flex;
-  text-align: left;
-  align-items: center;
-  margin: 1%;
-  font-size: small;
 }
 
-.fa-google {
-  background: #dd4b39;
-  color: white;
+.socials4 {
 }
+
 
 .six {
-  grid-column: 1 / 11;
+  /* grid-column: 1 / 11;
   grid-row: 4;
   display: flex;
   text-align: left;
   align-items: center;
-  margin: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-size: small;
-
+  height: 25px; */
 }
+
+/* .pdf {
+  width: 35px;
+  height: 35px;
+} */
 
 .seven {
   grid-column: 1 / 6;
@@ -217,20 +224,21 @@ li span {
 }
 
 .nine {
-  background-color: #007bb5;
+  font-size: medium;
+
   /* grid-column: 1 / 6; */
   grid-row: 7;
   display:grid
   text-align: left;
   align-items: center;
   /* margin: 2%; */
-  font-size: small;
   height: 50px;
   width: 50px;
   /* height: 200px; */
 }
 
 .ten {
+  font-size: medium;
   margin-top: 1%;
 margin-left: 1%;
   height: 50px;
@@ -240,19 +248,20 @@ margin-left: 1%;
   text-align: left;
   align-items: center;
   /* margin: 2%; */
-  font-size: small;
+
   /* height: 200px; */
 }
 
 .eleven {
-  background-color: #007bb5;
+  font-size: medium;
+
   /* grid-column: 1 / 6; */
   grid-row: 8;
   display:grid
   text-align: left;
   align-items: center;
   /* margin: 2%; */
-  font-size: small;
+ 
   height: 50px;
   width: 50px;
   /* height: 200px; */
@@ -268,12 +277,12 @@ margin-left: 1%;
   text-align: left;
   align-items: center;
   /* margin: 2%; */
-  font-size: small;
+  font-size: medium;
   /* height: 200px; */
 }
 
 .thirteen {
-  background-color: #007bb5;
+
   /* grid-column: 1 / 6; */
   grid-row: 9;
   display:grid
@@ -296,7 +305,7 @@ margin-left: 1%;
   text-align: left;
   align-items: center;
   /* margin: 2%; */
-  font-size: small;
+  font-size: medium;
   /* height: 200px; */
 }
 
@@ -327,8 +336,21 @@ margin-left: 1%;
   vertical-align: middle;
 }
 
+.wrapper-port {
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 2px;
+  grid-template-rows: 1fr min-content;
+}
+
+.row-border {
+  border-top: 2px solid #444444 ;
+  grid-column: 1 / 11;
+}
+
 .portfolio {
-  grid-row: 12;
+  grid-row: 2;
   grid-column: 1 / 11;
   text-align: center;
   font-weight: bold;
@@ -338,7 +360,7 @@ margin-left: 1%;
   border-radius: 2px;
 }
 
-.title {
+/* .title {
   grid-column: 1 / 11;
   grid-row: 13;
   text-align: center;
@@ -347,25 +369,59 @@ margin-left: 1%;
   border-style: solid;
   border-width: 2px;
   border-radius: 2px;
+} */
+
+.port-tag {
+  display: flex;
 }
 
 .pi-colorbox1 {
-  background-color: red;
+  grid-row: 3;
   /* grid-column: 1 / 3; */
-  grid-row: 14;
   height: 60px;
   width: 60px;
 }
 
-.pi-text1{
-  /* background-color: #b8b8b8; */
+.pi-text1 {
+grid-row: 3;
 grid-column: 2 / 11;
-grid-row: 14;
-margin-left: -10px;
 }
 
-.port-tag {
-  display: flex;
+.pi-colorbox2 {
+  grid-row: 5;
+  /* grid-column: 1 / 3; */
+  height: 60px;
+  width: 60px;
+}
+
+.pi-text2 {
+grid-row: 5;
+grid-column: 2 / 11;
+}
+
+.portborder2 {
+  grid-row: 6;
+}
+
+.pi-colorbox3 {
+  grid-row: 7;
+  /* grid-column: 1 / 3; */
+  height: 60px;
+  width: 60px;
+}
+
+.pi-text3 {
+grid-row: 7;
+grid-column: 2 / 11;
+}
+
+.portborder3 {
+  grid-row: 8;
+}
+
+.port-buttons {
+  object-fit: cover;
+  width: 100%;
 }
 
 /* ----------tags */
@@ -393,24 +449,17 @@ margin-left: -10px;
   margin-left: 4px;
 }
 
-
-/* ----------tags */
-.pi-colorbox2 {
-  /* background-color: red; */
-  /* grid-column: 1 / 3; */
-  grid-row: 15;
-  height: 60px;
-  width: 60px;
+.pdf {
+  color: teal;
+  font-weight: bold;
+  margin-left: 4px;
 }
 
-.pi-text2{
-  /* background-color: #b8b8b8; */
-grid-column: 2 / 11;
-grid-row: 15;
-margin-left: -10px;
+.row-border {
+    border-top: 2px solid #444444 ;
+    grid-column: 1 / 11;
 }
 
-.port-buttons {
-  object-fit: cover;
-  width: 100%;
+.portborder1 {
+  grid-row: 4;
 }
