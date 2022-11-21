@@ -507,6 +507,7 @@ grid-column: 2 / 11;
   grid-template-columns: repeat(7, 60px);
   gap: 2px;
   grid-template-rows: 1fr min-content;
+  font-size: 90%;
 }
 
 .colorbox {
