@@ -5,11 +5,12 @@ body {
   color: #444444;
   margin: 3%;
   font-size: 95%;
+  width: auto;
 }
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     margin: 2%;
     width: auto;
   }
@@ -406,6 +407,7 @@ margin-left: 1%;
 
 .row-border {
   border-top: 2px solid #444444 ;
+  width: auto;
   /* grid-column: 1 / 8; */
 }
 
@@ -516,7 +518,7 @@ grid-column: 2 / 11;
 .row-border {
     border-top: 2px solid #444444 ;
     /* grid-column: 1 / 11; */
-    width: 100%;
+    width: auto;
 }
 
 .wrapper-portfolio {
