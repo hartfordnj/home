@@ -154,7 +154,7 @@ margin-top: 0px;
   margin-top: 10px;
 }
 
-.socials1 {
+.socials1:hover {
 
 }
 
@@ -511,6 +511,18 @@ grid-column: 2 / 11;
 
 .pdf {
   color: teal;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.xml {
+  color: green;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.oxygenxml {
+  color: lime;
   font-weight: bold;
   margin-left: 4px;
 }
