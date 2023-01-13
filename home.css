@@ -65,7 +65,7 @@ a:active {
 }
 
 .img-static {
-
+vertical-align: middle;
   object-fit: cover;
   width: 100%; 
 }
@@ -359,6 +359,52 @@ margin-left: 1%;
   height: 50px;
   grid-column: 2/ 8;
   grid-row: 9;
+  display:grid
+  text-align: left;
+  align-items: center;
+  /* margin: 2%; */
+  font-size: medium;
+  /* height: 200px; */
+
+}
+
+.prior-border {
+border-top: 2px solid #444444 ;
+/* grid-column: 1 / 11; */
+width: auto;
+}
+
+.priorwork {
+  display: grid;
+  /* grid-template-columns: repeat(10, 1fr); */
+  /* grid-template-columns: repeat(7, 60px); */
+  width: auto;
+  gap: 0.5%;
+  grid-auto-rows: minmax(auto);
+margin-top: 0.5%;
+margin-bottom: 0.5%;
+}
+
+.prior {
+
+  /* grid-column: 1 / 6; */
+  grid-row: 11;
+  display:grid
+  text-align: left;
+  align-items: center;
+  /* margin: 2%; */
+  font-size: small;
+  height: 50px;
+  width: 50px;
+  /* height: 200px; */
+}
+
+.prior-desc {
+  margin-top: 0;
+margin-left: 1%;
+  height: auto;
+  grid-column: 2/ 8;
+  grid-row: 11;
   display:grid
   text-align: left;
   align-items: center;
