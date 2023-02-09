@@ -576,6 +576,18 @@ grid-column: 2 / 11;
   margin-left: 4px;
 }
 
+.wiki {
+  color: #f8731b;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.confluence {
+  color: #307ef2;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
 .row-border {
     border-top: 2px solid #444444 ;
     /* grid-column: 1 / 11; */
