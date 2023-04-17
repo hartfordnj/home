@@ -588,6 +588,18 @@ grid-column: 2 / 11;
   margin-left: 4px;
 }
 
+.content {
+  color: #9430f2;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.social-media {
+  color: #30a4f2;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
 .row-border {
     border-top: 2px solid #444444 ;
     /* grid-column: 1 / 11; */
