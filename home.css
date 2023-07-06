@@ -376,6 +376,7 @@ a.img-link-container {
   box-shadow: 0px 2px 4px rgba(1, 1, 0.4, 1);
   border-radius: 10px;
   width: 100%;
+  margin-bottom: 1%;
 }
 
 .port-card:hover {
@@ -403,11 +404,14 @@ a.img-link-container {
   justify-content: center;
   text-align: left; /* Aligns the text to the left */
   flex: 1; /* This means the content will take up the remaining space */
+  margin: 5px 5px;
+
 }
 
 .port-title p, .port-description p {
  padding: 3px;
  margin-left: 3px;
+
 }
 
 .port-card-link {
@@ -432,6 +436,61 @@ a.img-link-container {
 .tag3 {
   color: #0063c0;
 }
+
+.tag4 {
+  color: #0063c0;
+}
+
+.tag5 {
+  color: #0a5D00;
+}
+
+.tag6 {
+  color: #1FC600;
+}
+
+@media screen and (max-width: 768px) { /* Change the width based on when you want the layout to switch */
+  .portfolio {
+ margin: 0;
+ padding: 0;
+  }
+
+  .portfolio p {
+    margin: 0;
+    padding: 2%;
+     }
+  
+  .port-title, .port-description {
+    padding-left: 0px;
+  }
+
+  .port-card {
+    flex-direction: column; /* This will stack the children vertically */
+    margin-bottom: 2%;
+    margin-left: 0;
+  }
+
+  .port-image img {
+    width: 100%; /* Adjusts the width of the image */
+    height: 100%; /* Adjusts the height of the image */
+    object-fit: contain; /* Makes sure the image is entirely visible */
+  }
+
+  .port-content {
+    width: 100%; /* This will make the content take the full width of the card */
+    margin: 0;
+  }
+
+  .port-title p, .port-description p {
+    padding: 0px;
+    margin-left: 0px;
+   }
+
+  
+
+  }
+
+
 
 footer {
   text-align: center;
