@@ -241,10 +241,12 @@ a.img-link-container {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 0px;
   margin-right: 0px;
 }
+
+
 
 .card-link {
   text-decoration: none; /* Remove underline */
@@ -258,6 +260,12 @@ a.img-link-container {
     align-items: center; /* Center cards horizontally */
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+min-width: 100%;
   }
 }
 
