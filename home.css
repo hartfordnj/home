@@ -458,6 +458,14 @@ min-width: 100%;
   color: #1FC600;
 }
 
+.tag7 {
+  color: #5e17eb;
+}
+
+.tag8 {
+  color: #8c52ff;
+}
+
 @media screen and (max-width: 768px) { /* Change the width based on when you want the layout to switch */
   .portfolio {
  margin: 0;
